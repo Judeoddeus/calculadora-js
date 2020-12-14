@@ -1,9 +1,5 @@
-function InserirNumero(numero){
-    document.getElementById("visor").value += numero;
-}
-
-function InserirSimbolo(simbolo){
-    document.getElementById("visor").value += simbolo;
+function Inserir(elemento){
+    document.getElementById("visor").value += elemento;
 }
 
 function LimparVisor(){
