@@ -1,61 +1,9 @@
-function Inserir1(){
-    document.getElementById("visor").value += 1;
+function InserirNumero(numero){
+    document.getElementById("visor").value += numero;
 }
 
-function Inserir2(){
-    document.getElementById("visor").value += 2;
-}
-
-function Inserir3(){
-    document.getElementById("visor").value += 3;
-}
-
-function Inserir4(){
-    document.getElementById("visor").value += 4;
-}
-
-function Inserir5(){
-    document.getElementById("visor").value += 5;
-}
-
-function Inserir6(){
-    document.getElementById("visor").value += 6;
-}
-
-function Inserir7(){
-    document.getElementById("visor").value +=7;
-}
-
-function Inserir8(){
-    document.getElementById("visor").value += 8;
-}
-
-function Inserir9(){
-    document.getElementById("visor").value += 9;
-}
-
-function Inserir0(){
-    document.getElementById("visor").value += 0;
-}
-
-function InserirMais(){
-    document.getElementById("visor").value += "+";
-}
-
-function InserirMenos(){
-    document.getElementById("visor").value += "-";
-}
-
-function InserirBarra(){
-    document.getElementById("visor").value += "/";
-}
-
-function InserirPonto(){
-    document.getElementById("visor").value += ".";
-}
-
-function InserirAsterisco(){
-    document.getElementById("visor").value += "*";
+function InserirSimbolo(simbolo){
+    document.getElementById("visor").value += simbolo;
 }
 
 function LimparVisor(){
@@ -69,7 +17,8 @@ function RaizQuadrada(){
 
 function Apagar(){
     let conteudo = document.getElementById("visor").value;
-    document.getElementById("visor").value = conteudo.substring(0, conteudo.lenght -1);
+    document.getElementById("visor").value = conteudo.substring(0, conteudo.length - 1);
+
 }
 
 function Calcular(){
